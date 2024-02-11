@@ -24,6 +24,7 @@ struct URLSessionRequestHandler: RequestHandler {
         do {
             return try decoder.decode(T.self, from: data)
         } catch {
+            print("raw error: \(String(data: data, encoding: .utf8))")
             throw try decoder.decode(APIErrorResponse.self, from: data)
         }
     }

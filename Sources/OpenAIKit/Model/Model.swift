@@ -48,6 +48,7 @@ extension Model {
         case gpt3_5Turbo16K = "gpt-3.5-turbo-16k"
         case gpt3_5Turbo0301 = "gpt-3.5-turbo-0301"
         case gpt3_5Turbo_1106 = "gpt-3.5-turbo-1106"
+        case gpt3_5Turbo_0125 = "gpt-3.5-turbo-0125"
         case textDavinci003 = "text-davinci-003"
         case textDavinci002 = "text-davinci-002"
         case textCurie001 = "text-curie-001"
